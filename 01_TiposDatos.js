@@ -41,3 +41,27 @@ console.log({
 // arreglo - array
 console.log(["Argentina", "Mexico", "Chile", "Brasil"]);
 console.log(["Ezequiel", true, { nombre: "Ezequiel" }, [1, 2, 3, 4, 5]]);
+
+
+//Ejecicio 1
+var horasXdia = 24;
+var minutosXhora = 60;
+var segundosXminuto = 60;
+
+var segundosXdia = segundosXminuto * minutosXhora * horasXdia;
+console.log(segundosXdia);
+
+//Ejercicio 2
+var ancho = 2;
+var alto = 5;
+var area = ancho * alto;
+console.log(area);
+
+//Ejecicio 3
+var factor = 9;
+var divisor = 5;
+var sumando = 32;
+let grados=20;
+var calculo = ((grados * factor) / divisor) + sumando;
+
+console.log(calculo);
